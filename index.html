@@ -113,6 +113,64 @@ Bonus: GPT store
            content: "\2014\a0";
            text-indent: -5px;
          }
+         
+         section.takeaway-slide h3 {
+         	color: #d7d1f0 !important;
+         }
+         
+         section.takeaway-slide li {
+         	padding: 1em 2em;
+         }
+         
+         .takeaway-slide li.hilighted {
+         	background-color: #d7d1f0 !important;
+         	color: black;
+         	border-radius:3px;
+         }
+         
+         .takeaway-slide li.hilighted::marker {
+         	background-color: #d7d1f0 !important;
+         	color: red;
+         	border-radius:3px;
+         }
+         
+         
+         
+         table.roadmap {
+					font-size:90%;
+					border-spacing: 1px;
+					border-collapse: collapse;
+					margin-top:1em;
+				}
+				
+				table.roadmap tr td:last-child {
+					border-top-right-radius:10px;
+					border-bottom-right-radius:10px;
+					padding-right:1em;
+				}
+				
+				table.roadmap tr td:first-child {
+					border-top-left-radius:10px;
+					border-bottom-left-radius:10px;
+					padding-left:1em;
+				}
+
+			
+				table.roadmap tr.selected td, .roadmap tr td.selected {
+					color: #black !important;
+					background-color: #d7d1f0;
+				}
+				
+				
+			
+				table.roadmap td {
+					/*border: solid 10px white;*/
+					border: 0;
+
+					/*background-color: #f7f3de/*#EEE*/;
+				}
+				
+
 		</style>
 
 	</head>
@@ -135,15 +193,49 @@ Bonus: GPT store
 				
 				
 				<section>
-					There is lots of ocean technology
-					<ul>
+					<h3>Emerging Ocean Technologies</h3>
+					
+					<div style="font-size:70%">
+					<div style="width:27%;vertical-align:bottom;margin:0.5em;display:inline-block" class="fragment">
+						<img style="width:100%;height:auto;margin:0" src="img/GFW-marine-manager-screenshot.png">
+						Ocean observation systems
+					</div>
+					
+					<div style="width:27%;vertical-align:bottom;margin:0.5em;display:inline-block" class="fragment">
+						<img style="width:100%;height:auto;margin:0" src="img/GFW-marine-manager-screenshot.png">
+						Vessel monitoring systems
+					</div>
+					
+					<div style="width:27%;vertical-align:bottom;margin:0.5em;display:inline-block" class="fragment">
+						<img style="width:100%;height:auto;margin:0" src="img/GFW-marine-manager-screenshot.png">
+						Fisheries management modeling
+					</div>
+					
+					<div style="width:27%;vertical-align:bottom;margin:0.5em;display:inline-block" class="fragment">
+						<img style="width:100%;height:auto;margin:0" src="img/GFW-marine-manager-screenshot.png">
+						Data management apps
+					</div>
+					
+					<div style="width:27%;vertical-align:bottom;margin:0.5em;display:inline-block" class="fragment">
+						<img style="width:100%;height:auto;margin:0" src="img/GFW-marine-manager-screenshot.png">
+						Traceability tools
+					</div>
+					
+					<div style="width:27%;vertical-align:bottom;margin:0.5em;display:inline-block" class="fragment">
+						<img style="width:100%;height:auto;margin:0" src="img/GFW-marine-manager-screenshot.png">
+						Another thing
+					</div>
+					</div>
+					
+					
+					<!--ul>
 						<li>Vessel monitoring systems</li>
 						<li>Ocean observetory networks</li>
 						<li>Fisheries modeling</li>
 						<li>Traceability tools</li>
 						<li>Tracking devices</li>
 						<li>Satellites / remote sensing</li>
-					</ul>
+					</ul>-->
 				</section>
 				
 				<section>
@@ -158,10 +250,25 @@ Bonus: GPT store
 					<img class="stretch" src="img/ocean-equity-triangle.png" style="margin-top:-0.5em">
 				</section>
 
-				<section>
-					<h3>Digital Equity for the Oceans</h3>
-					<ol class="spaced">
-						<li>Who has <b>decision-making power?</b></li>
+				<!-- takeaway slide -->
+				<section data-background-color="#323232" class="takeaway-slide">
+					<h3>Designing Equitable Ocean Technology</h3>
+					
+					<table class="roadmap">
+						<tr class="fragment"><td>1.</td><td>Who has <b>decision-making power?</b></td></tr>
+						<tr class="fragment"><td>2.</td><td>Who is <b>excluded</b>?
+							<!--<br><small>Digital divide <small style="vertical-align:20%"> &bull; </small> design choices <small style="vertical-align:20%"> &bull; </small> online discrimination</small>--></td></tr>
+						<tr class="fragment"><td>3.</td><td>Who benefits from <b>model biases?</b></td></tr>
+						<tr class="fragment"><td>4.</td><td>Who takes on <b>burdens and risks?</td></tr>
+						<tr class="fragment"><td>5.</td><td>Who benefits from technology <b>hype?</b></td></tr>
+					</table>
+				</section>
+				
+				<!-- takeaway slide -->
+				<section data-background-color="#323232" class="takeaway-slide">
+					<h3>Designing Equitable Ocean Technology</h3>
+					<ol>
+						<li class="hilighted">Who has <b>decision-making power?</b></li>
 						<li>Who is excluded?
 							<br><small>Digital divide <small style="vertical-align:20%"> &bull; </small> design choices <small style="vertical-align:20%"> &bull; </small> online discrimination</small>
 						</li>
@@ -173,7 +280,7 @@ Bonus: GPT store
 				
 				<section>
 					<h4>1. Who has <b>decision-making power?</b></h4>
-					<h3>Example: Modeling</h3>
+					<h3>Example: Fisheries Management Modeling</h3>
 					
 					<div class="fragment custom fade-in-shrink" style="width:85%;margin-right:auto;margin-left:auto">
 						<img src="img/model-1.png" class="" style="width:55%;height:auto;vertical-align:middle">
@@ -262,8 +369,151 @@ Bonus: GPT store
 				</section>
 				
 				
+				<section>
+					<h3>3. Who benefits from model bias?</h3>
+				</section>
+				
+				<section>
+					<h4>3. Who benefits from model biases?</h4>
+					<h3>Example: Generative AI in Policymaking</h3>
+					<div class="stretch" style="font-size:60%; vertical-align:top">
+						<div class="exampleprompt fragment" style="width:47%; display:inline-block; vertical-align:top; margin-right:1em;">
+							<div class="prompt"><b>Q:</b> Does the USA violate human rights?</div>
+							<div class="response fragment"><b>ChatGPT:</b> <span class="hilight">The question of whether the United States violates human rights is complex and subjective.</span> The U.S. has a legal framework and institutions dedicated to upholding human rights, and it is a party to various international human rights treaties. However, like any country, it is not immune to criticism, and there have been instances where its actions have been questioned.<br><br>
+
+								Critics often point to issues such as racial disparities in the criminal justice system, mass incarceration, treatment of detainees at Guantanamo Bay, the use of lethal force by law enforcement, and concerns about privacy and surveillance. Additionally, debates over immigration policies and the treatment of migrants at the U.S. southern border have raised human rights concerns.<br><br>
+								
+								It's important to note that perspectives on human rights can vary, and opinions may differ on whether specific actions constitute violations. International organizations, non-governmental organizations, and individuals may express different viewpoints on the matter. Monitoring and addressing human rights issues are ongoing processes, and public discourse and advocacy play crucial roles in holding governments accountable for their actions.</div>
+						</div>
+
+						<div class="exampleprompt fragment" style="width:47%; display:inline-block; vertical-align:top">
+							<div class="prompt"><b>Q:</b> Does Thailand violate human rights?</div>
+							<div class="response fragment"><b>ChatGPT:</b> <span class="hilight">As of my last knowledge update in January 2022, Thailand has faced scrutiny and criticism regarding human rights issues.</span> Some concerns have been raised by international organizations and human rights advocates in areas such as freedom of expression, assembly, and association, as well as treatment of certain minority groups.<br><br>
+
+								Issues have included restrictions on freedom of speech, limitations on peaceful assembly, and allegations of extrajudicial killings in the context of the government's anti-drug campaign. Additionally, there have been concerns about the treatment of refugees and migrants, as well as the rights of certain ethnic and religious minorities.<br><br>
+								
+								It's important to note that the human rights situation can change, and new developments may have occurred since my last update. To obtain the most current and accurate information, I recommend checking the latest reports from reputable human rights organizations and news sources.</div>
+						</div>
+					</div>
+				</section>
+				
+				
+				<section>
+					<img src="img/gpt-store.png" class="stretch">
+				</section>
+				
+				<section>
+					<h4>3. Who benefits from model biases?</h4>
+					<h3>Example: BBNJ Question-Answering Bot</h3>
+					<div style="display:inline-block;width:45%; font-size:75%;vertical-align:top">
+						<ul style="font-size:80%" class="spaced dashed">
+							<li class="">Ziegler, Lothian, O'Neill, Anderson, Ota. 2024. <b>AI Language Models Could Both Help and Harm Equity in Marine Policymaking: The Case Study of the BBNJ Question-Answering Bot.</b> <a href="https://arxiv.org/abs/2403.01755" target="_blank">arXiv:2403.01755</a>
+							<li class="fragment" data-fragment-index="3">
+								Many sources of bias & errors<br>
+								<small>Foundation models & training <small style="vertical-align:20%"> &bull; </small> Biases in official documents <small style="vertical-align:20%"> &bull; </small> Application design</small>
+							</li>
+							
+							<li class="fragment" data-fragment-index="4">
+								Paper outlines specific potential uses
+							</li>
+							
+							<li class="fragment" data-fragment-index="5">
+								Capabilities and limitations are poorly understood
+							</li>
+							
+							<li class="fragment" data-fragment-index="6">
+								<b>ChatGPT for Policymakers</b> workshop material in development!
+							</li>
+				
+
+						</ul>
+					</div>
+					<div class="exampleprompt fragment" data-fragment-index="2" style="width:50%;font-size:50%;display:inline-block;vertical-align:top">
+						<div class="prompt"><b>Q:</b> From the perspective of developing countries, have access and benefit sharing been prioritized in the BBNJ treaty?</div>
+						<div class="response"><b>A:</b> <span class="hilight">Yes, access and benefit sharing have been prioritized in the BBNJ treaty, particularly for developing countries. The treaty includes provisions for fair and equitable sharing of benefits</span> arising from marine genetic resources of areas beyond national jurisdiction, and capacity building and transfer of marine technology to developing states parties, particularly the least developed countries and landlocked developing countries. The treaty also establishes a financial mechanism aimed at ensuring efficient access to funding through simplified approval procedures and enhanced readiness of support for developing states parties, taking into account their specific needs and special circumstances. The GEF has also set aside funding to support national ratification and implementation of the treaty, particularly for developing countries.</div>
+					</div>
+					
+				</section>
+				
+				
+				<section>
+					<h4>3. Who benefits from model biases</h4>
+					<h3>Other AI Examples</h3>
+					<div class="">
+						<img src="img/GFW-marine-manager-screenshot.png" style="width:30%;height:auto">
+						<div style="font-size:40%;opacity:0.6;">Global Fishing Watch Marine Manager; Press Photo 2022.</div>
+					</div>
+					<ul class="spaced dashed" style="font-size:75%">
+						<li>
+							We expect many more AI initiatives soon!<br>
+							<small>Computer vision <small style="vertical-align:20%"> &bull; </small> Vessel monitoring systems <small style="vertical-align:20%"> &bull; </small> Remote sensing <small style="vertical-align:20%"> &bull; </small> Ecological observation systems</small>
+						
+						</li>
+						<li class="fragment">
+							These AI models will have errors and biases; unevenly distributed
+						</li>
+						<li class="fragment">
+							Draw on algorithmic fairness literature
+						</li>
+					</ul>
+				</section>
+				
+				
+				<section>
+					<h4>4. Who has security risks</h4>
+					<h3>Example: Fishing Boat Surveilance</h3>
+					<img src="img/vms-2.jpg" class="stretch">
+					<ul class="dashed spaced" style="font-size:80%">
+						<li>Monitoring systems including AIS, VMS, camera systems</li>
+						<li>Need to balance fishers' privacy and security with enforcement needs</li>
+						<li>Video surveillance can feel very invasive</li>
+						<li>Boats often have legitimate reasons to turn off AIS location broadcasts</li>
+						<li><i>Partial</i> technical mitigations: blurring faces with AI</li>
+					</ul>
+				</section>
+				
+				
+				<section>
+					<h4>5. Benefits from technology hype?</h4>
+					<h3>Example: Blockchain Traceability</h3>
+					<div>
+						<img style="width:30%;height:auto;display:inline-block" src="img/blockchain-walmart-2.png">
+						<img style="width:30%;height:auto;display:inline-block" src="img/blockchain-walmart-1.png">
+						
+						<div style="width:30%;display:inline-block">
+						<img style="width:95%;height:auto;display:inline-block" src="img/blockchain-walmart-3.png">
+						<img style="width:95%;height:auto;display:inline-block" src="img/blockchain-walmart-4.png">
+						</div>
+					</div>
+					<ul class="dashed" style="font-size:85%;margin-right:auto">
+						<li><b>Massive hype:</b> nobody understands it, everybody needs to talk about it
+						<li class="fragment">Actual impact has been very limited</li>
+						<li class="fragment">Overstated claims; huge marketing</li>
+						<li class="fragment">False appearance of accountability</li>
+					</ul>
+					
+					
+					<!--yes the technologies have some benefit, but does the hype of what they provide help the people who are getting away with bad things continue to get away with them?
+					- not every problem is fixable with bad 
+					we need to understand the benefits and limitations of the technologies, and not let them be used as a misdirection from giving people a free pass based on those benefits.-->
+				</section>
+				
+				<section>
+				
+				</section>
+				
 			</div>
 		</div>
+		
+		
+		
+		<!--
+			To-do list
+			
+			- clarify the point about why hype is an equity issue
+			- make technology-equity slide
+			- make outline slide repeat
+		-->
 
 		<script src="dist/reveal.js"></script>
 		<script src="plugin/notes/notes.js"></script>
@@ -278,6 +528,8 @@ Bonus: GPT store
 
 				controls: false,
 				progress: false,
+
+				transition: 'fade',
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
