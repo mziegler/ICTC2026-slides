@@ -118,6 +118,13 @@ Bonus: GPT store
          	color: #d7d1f0 !important;
          }
 
+		 span.number-marker {
+			background-color:#d7d1f0;
+			color: black;
+			padding: 0 0.5em;
+			border-radius:500px;
+			font-size:70%;
+		 }
          
          
          table.roadmap {
@@ -176,7 +183,7 @@ Bonus: GPT store
 
 				
 				
-				<section>
+				<section data-background-color="#0d2142">
 					<h3>Emerging Ocean Technologies</h3>
 					
 					<div style="font-size:60%">
@@ -231,15 +238,16 @@ Bonus: GPT store
 					<img class="stretch" src="img/global-broadband.png">
 				</section>
 
-				<section data-background-color="#000000">
+				<!-- <section data-background-color="#000000">
 					<h4>Disproportionate Surveillance of Minoritized Groups</h4>
 					<img class="stretch" src="img/black-lives-matter-surveillance.webp">
 					<div style="font-size:40%;opacity:0.4">Credit: Amnesty International / Spencer Platt / Getty Images</div>
-				</section>
+				</section> -->
 
 				<section data-background-color="#404040">
-					<img src="img/algorithms-of-opression.jpg" style="width:35%;height:auto;display:inline-block;margin-right:1em">
-					<div style="width:45%;display:inline-block">
+					<h4>AI Model Biases</h4>
+					<img src="img/algorithms-of-opression.jpg" style="width:33%;height:auto;display:inline-block;margin-right:1em">
+					<div style="width:40%;display:inline-block">
 						<img src="img/computer-vision-discrimination.png" style="width:100%;height:auto;display:block">
 						<img src="img/gender-classification.webp" style="width:100%;height:auto;display:block">
 						<div style="font-size:40%;opacity:0.4">Credit: Joy Buolamwini</div>
@@ -262,7 +270,7 @@ Bonus: GPT store
 			<!--<br><small>Digital divide <small style="vertical-align:20%"> &bull; </small> design choices <small style="vertical-align:20%"> &bull; </small> online discrimination</small>--></td></tr>
 		<tr class="fragment"><td>3.</td><td>Who benefits from <b>model biases?</b></td></tr>
 		<tr class="fragment"><td>4.</td><td>Who takes on <b>burdens and risks?</td></tr>
-		<tr class="fragment"><td>5.</td><td>Who benefits from technology <b>hype?</b></td></tr>
+		<tr class="fragment"><td>5.</td><td>Who benefits from <b>hype and confusion?</b></td></tr>
 	</table>
 </section>
 
@@ -275,7 +283,7 @@ Bonus: GPT store
 		<tr><td>2.</td><td>Who is <b>excluded</b>?
 		<tr><td>3.</td><td>Who benefits from <b>model biases?</b></td></tr>
 		<tr><td>4.</td><td>Who takes on <b>burdens and risks?</td></tr>
-		<tr><td>5.</td><td>Who benefits from technology <b>hype?</b></td></tr>
+		<tr><td>5.</td><td>Who benefits from <b>hype and confusion?</b></td></tr>
 	</table>
 </section>
 				
@@ -292,23 +300,32 @@ Bonus: GPT store
 						</small>
 					</div>
 					
-					<ul class="dashed">
+					<!-- <ul class="dashed">
 						<li class="fragment">Complexity squeezes out less-powerful stakeholders</li>
-					</ul>
+					</ul> -->
 				</section>
 				
+				<!-- <section data-background-gradient="linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 86%, rgba(50,50,50,1) 86%, rgba(50,50,50,1) 100%)"> -->
 				<section>
-					<h4>1. Who has <b>decision-making power?</b></h4>
+					<!-- <h4 style="background-color:black"><span class="number-marker">1.</span> Who has <b>decision-making power?</b></h4> -->
 					<h3>Example: Modeling</h3>
 					
 					<ul class="dashed spaced">						
-						<li class="">Complexity squeezes out less-powerful stakeholders</li>
-						<li class="fragment">Ideal: equitable sharing of decision-making</li>
-						<li class="fragment">"Participatory" methods often fall short in practice
-							<ul>
-								<li>More powerful actors still control the process</li>
+						<li class="">Complexity squeezes out less-powerful stakeholders
+							<ul class="dashed">
+								<li style="margin-top:0">What is modeled and why?</li>
 							</ul>
-							<div style="background-color:#eee">Insert Angela figure</div>
+						</li>
+						<!-- <li class="fragment">Ideal: equitable sharing of decision-making</li> -->
+						<li class="fragment">"Participatory" modeling methods often fall short in practice
+							<ul class="dashed">
+								<li style="margin-top:0">More powerful actors still control the process</li>
+							</ul>
+							<div style="width:60%;margin-right:auto;margin-left:auto">
+							<img src="img/science-management-interface.png" style="width:70%;height:auto"><br>
+							<div style="font-size:40%;opacity:0.6;line-height:1">Angela Abolhassani, Jessica Vandenberg 2024. <i>Management Procedures and the Science Management Interface in International Tuna Management</i>. Presentation at World Fisheries Congress 2024. (citing Lave 2012.)</div>
+							</div>
+							
 						</li>
 						<li class="fragment">
 							Technological partial-mitigations?<br>
@@ -316,7 +333,9 @@ Bonus: GPT store
 						</li>
 					</ul>
 					
-					<div style="background-color:#eee" class="fragment">Also applies to apps and things</div>
+					<!-- - looking into what is monitored and why: every model is omitting some factors and focusing on some factors. Interesting to see what has been put in place. What is being monitored and why; who is benefitting from that. -->
+
+					<!-- <div style="background-color:#eee" class="fragment">Also applies to apps and things</div> -->
 				</section>
 				
 <!-- takeaway slide -->
@@ -328,7 +347,7 @@ Bonus: GPT store
 		<tr  class="selected"><td>2.</td><td>Who is <b>excluded</b>?
 		<tr><td>3.</td><td>Who benefits from <b>model biases?</b></td></tr>
 		<tr><td>4.</td><td>Who takes on <b>burdens and risks?</td></tr>
-		<tr><td>5.</td><td>Who benefits from technology <b>hype?</b></td></tr>
+		<tr><td>5.</td><td>Who benefits from <b>hype and confusion?</b></td></tr>
 	</table>
 </section>
 
@@ -365,18 +384,18 @@ Bonus: GPT store
 				</section>
 				
 				<section>
-					<h3>2. Who is excluded?</h3>
+					<h4>2. Who is excluded?</h4>
 					
-					<h4>Example: Online social spaces</h4>
+					<h3>Example: Online social spaces</h3>
 					
-					<blockquote style="font-size:70%">
+					<blockquote style="font-size:70%;padding:0.5em;border-radius:5px;color:white;background-color:#0d2142;margin-top:1em;width:80%">
 						<b>Conservation NGO staff on using group chats:</b><br>
-						&ldquo;The demography of the groups itself matters, because if you have both [the llocak language] and English, then English becomes the main thing then the other people just don't bother because they feel excluded. Language plays a huge role.&rdquo;<br>
+						&ldquo;<!--The demography of the groups itself matters, because if you have both [the llocak language] and English, then--> English becomes the main thing then the other people just don't bother because they feel excluded. Language plays a huge role.&rdquo;<br>
 						<div style="text-align:right;"><small>&ndash; Ziegler et. al. Forthcoming</small></div>
 					</blockquote>
 					
 					<ul class="spaced dashed">
-						<li class="fragment">Many gendered Facebook and Whatsapp groups for fishing
+						<li class="fragment">Gendered Facebook and Whatsapp groups for fishers
 						<br><small style="padding-left: 1.8em">Claudia Delgado Ramírez et. al., Forthcoming</small></li>
 						<li class="fragment">Sometimes addressable with moderation, sometimes not</li>
 					</ul>
@@ -392,13 +411,12 @@ Bonus: GPT store
 		<tr><td>2.</td><td>Who is <b>excluded</b>?
 		<tr class="selected"><td>3.</td><td>Who benefits from <b>model biases?</b></td></tr>
 		<tr><td>4.</td><td>Who takes on <b>burdens and risks?</td></tr>
-		<tr><td>5.</td><td>Who benefits from technology <b>hype?</b></td></tr>
+		<tr><td>5.</td><td>Who benefits from <b>hype and confusion?</b></td></tr>
 	</table>
 </section>
-
 				<section>
-					<h3>3. Who benefits from model bias?</h3>
-				</section>
+					<img src="img/gpt-store.png" class="stretch">
+				</section>	
 				
 				<section>
 					<h4>3. Who benefits from model biases?</h4>
@@ -425,40 +443,49 @@ Bonus: GPT store
 				</section>
 				
 				
-				<section>
-					<img src="img/gpt-store.png" class="stretch">
-				</section>
+				
 				
 				<section>
 					<h4>3. Who benefits from model biases?</h4>
 					<h3>Example: BBNJ Question-Answering Bot</h3>
 					<div style="display:inline-block;width:45%; font-size:75%;vertical-align:top">
-						<ul style="font-size:80%" class="spaced dashed">
+						<ul style="font-size:80%; padding-top:1em" class="spaced dashed">
 							<li class="">Ziegler, Lothian, O'Neill, Anderson, Ota. 2024. <b>AI Language Models Could Both Help and Harm Equity in Marine Policymaking: The Case Study of the BBNJ Question-Answering Bot.</b> <a href="https://arxiv.org/abs/2403.01755" target="_blank">arXiv:2403.01755</a>
 							<li class="fragment" data-fragment-index="3">
 								Many sources of bias & errors<br>
-								<small>Foundation models & training <small style="vertical-align:20%"> &bull; </small> Biases in official documents <small style="vertical-align:20%"> &bull; </small> Application design</small>
+								<ul class="dashed" style="font-size:85%">
+									<li style="margin-top:0">Foundation models & training</li>
+									<li style="margin-top:0">Biases in official documents</li>
+									<li style="margin-top:0">Application design</li>
+								</ul>
+								<!-- <small>Foundation models & training <small style="vertical-align:20%"> &bull; </small> Biases in official documents <small style="vertical-align:20%"> &bull; </small> Application design</small> -->
 							</li>
 							
-							<li class="fragment" data-fragment-index="4">
+							<!-- <li class="fragment" data-fragment-index="4">
 								Paper outlines specific potential uses
 							</li>
 							
 							<li class="fragment" data-fragment-index="5">
 								Capabilities and limitations are poorly understood
-							</li>
+							</li> -->
 							
-							<li class="fragment" data-fragment-index="6">
+							<!-- <li class="fragment" data-fragment-index="6">
 								<b>ChatGPT for Policymakers</b> workshop material in development!
-							</li>
-				
+							</li> -->
 
 						</ul>
+
+						<div class="fragment" style="padding:0.5em;border-radius:5px;color:white;background-color:#0d2142;margin-top:1em;width:80%">
+
+							<b>ChatGPT for Policymakers Workshop</b><br>Website coming soon!
+						</div>
 					</div>
-					<div class="exampleprompt fragment" data-fragment-index="2" style="width:50%;font-size:50%;display:inline-block;vertical-align:top">
+					<!-- <div class="exampleprompt fragment" data-fragment-index="2" style="width:50%;font-size:50%;display:inline-block;vertical-align:top">
 						<div class="prompt"><b>Q:</b> From the perspective of developing countries, have access and benefit sharing been prioritized in the BBNJ treaty?</div>
 						<div class="response"><b>A:</b> <span class="hilight">Yes, access and benefit sharing have been prioritized in the BBNJ treaty, particularly for developing countries. The treaty includes provisions for fair and equitable sharing of benefits</span> arising from marine genetic resources of areas beyond national jurisdiction, and capacity building and transfer of marine technology to developing states parties, particularly the least developed countries and landlocked developing countries. The treaty also establishes a financial mechanism aimed at ensuring efficient access to funding through simplified approval procedures and enhanced readiness of support for developing states parties, taking into account their specific needs and special circumstances. The GEF has also set aside funding to support national ratification and implementation of the treaty, particularly for developing countries.</div>
-					</div>
+					</div> -->
+
+					<img src="img/BBNJbot-screenshot.png" style="width:50%;height:auto;text-align:top;display:inline-block">
 					
 				</section>
 				
@@ -467,11 +494,13 @@ Bonus: GPT store
 					<h4>3. Who benefits from model biases</h4>
 					<h3>Other AI Examples</h3>
 					<div class="">
+						<img src="img/fish-detection-in-net.png" style="width:30%;height:auto">
+						<img src="img/computer-vision-onboard.jpg" style="width:29%;height:auto">
 						<img src="img/GFW-marine-manager-screenshot.png" style="width:30%;height:auto">
-						<div style="font-size:40%;opacity:0.6;">Global Fishing Watch Marine Manager; Press Photo 2022.</div>
+						<div style="font-size:40%;opacity:0.6;">TODO: add photo credits <!--Global Fishing Watch Marine Manager; Press Photo 2022.--></div>
 					</div>
 					<ul class="spaced dashed" style="font-size:75%">
-						<li>
+						<li>g
 							We expect many more AI initiatives soon!<br>
 							<small>Computer vision <small style="vertical-align:20%"> &bull; </small> Vessel monitoring systems <small style="vertical-align:20%"> &bull; </small> Remote sensing <small style="vertical-align:20%"> &bull; </small> Ecological observation systems</small>
 						
@@ -482,6 +511,14 @@ Bonus: GPT store
 						<li class="fragment">
 							Draw on algorithmic fairness literature
 						</li>
+
+						<!--
+						equity
+						- discrediting destructive narratives
+						- individual dignity
+						- protection from the law
+
+						-->
 					</ul>
 				</section>
 				
@@ -495,20 +532,25 @@ Bonus: GPT store
 		<tr><td>2.</td><td>Who is <b>excluded</b>?
 		<tr><td>3.</td><td>Who benefits from <b>model biases?</b></td></tr>
 		<tr class="selected"><td>4.</td><td>Who takes on <b>burdens and risks?</td></tr>
-		<tr><td>5.</td><td>Who benefits from technology <b>hype?</b></td></tr>
+		<tr><td>5.</td><td>Who benefits from <b>hype and confusion?</b></td></tr>
 	</table>
 </section>
 
 				<section>
-					<h4>4. Who has security risks</h4>
+					<h4>4. Who takes on burdens and risks</h4>
 					<h3>Example: Fishing Boat Surveillance</h3>
-					<img src="img/vms-2.jpg" class="stretch">
+					<img src="img/conveyor-belt-camera.png" style="width:27%;height:auto">
+					<img src="img/computer-vision-onboard.jpg" style="width:30%;height:auto">
+					<img src="img/onboard-surveillance-iobserver.png" style="width:32%;height:auto">
 					<ul class="dashed spaced" style="font-size:80%">
 						<li>Monitoring systems including AIS, VMS, camera systems</li>
-						<li>Need to balance fishers' privacy and security with enforcement needs</li>
-						<li>Video surveillance can feel very invasive</li>
-						<li>Boats often have legitimate reasons to turn off AIS location broadcasts</li>
-						<li><i>Partial</i> technical mitigations: blurring faces with AI</li>
+						<li class="fragment">Need to balance fishers' privacy and security with enforcement needs
+							<ul class="dashed">
+								<li>Video surveillance can feel very invasive</li>
+								<li>Legitimate reasons to turn off AIS location broadcasts</li>
+							</ul>
+						</li>
+						<li class="fragment"><i>Partial</i> technical mitigations: blurring faces with AI</li>
 					</ul>
 				</section>
 				
@@ -522,7 +564,7 @@ Bonus: GPT store
 		<tr><td>2.</td><td>Who is <b>excluded</b>?
 		<tr><td>3.</td><td>Who benefits from <b>model biases?</b></td></tr>
 		<tr><td>4.</td><td>Who takes on <b>burdens and risks?</td></tr>
-		<tr class="selected"><td>5.</td><td>Who benefits from technology <b>hype?</b></td></tr>
+		<tr class="selected"><td>5.</td><td>Who benefits from <b>hype and confusion?</b></td></tr>
 	</table>
 </section>
 
@@ -539,9 +581,8 @@ Bonus: GPT store
 						</div>
 					</div>
 					<ul class="dashed" style="font-size:85%;margin-right:auto">
-						<li><b>Massive hype:</b> nobody understands it, everybody needs to talk about it
+						<li>Massive hype, huge marketing, exaggerated claims
 						<li class="fragment">Actual impact has been very limited</li>
-						<li class="fragment">Overstated claims; huge marketing</li>
 						<li class="fragment">False appearance of accountability</li>
 					</ul>
 					
@@ -561,7 +602,7 @@ Bonus: GPT store
 		<tr><td>2.</td><td>Who is <b>excluded</b>?
 		<tr><td>3.</td><td>Who benefits from <b>model biases?</b></td></tr>
 		<tr><td>4.</td><td>Who takes on <b>burdens and risks?</td></tr>
-		<tr><td>5.</td><td>Who benefits from technology <b>hype?</b></td></tr>
+		<tr><td>5.</td><td>Who benefits from <b>hype and confusion?</b></td></tr>
 	</table>
 </section>
 
