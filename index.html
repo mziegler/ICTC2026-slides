@@ -160,7 +160,28 @@ Bonus: GPT store
 
 					/*background-color: #f7f3de/*#EEE*/;
 				}
+
+				table.roadmap span.signpost {
+					font-size:70%;
+					color: black !important;
+					background-color: #d7d1f0;
+					padding: 0.2em 0.45em;
+					border-radius:100px;
+					vertical-align: 5%;
+				}
 				
+				table.roadmap tr.selected span.signpost {
+					font-size:85%;
+					color: black !important;
+					background-color: #d7d1f0;
+					padding:0;
+					/*padding-left:0.25em;*/
+					border-radius:0;
+				}
+
+				table.roadmap tr td:first-child {
+					text-align:center;
+				}
 
 		</style>
 
@@ -191,15 +212,15 @@ Bonus: GPT store
 						<img style="width:100%;height:auto;margin:0" src="img/GFW-marine-manager-screenshot.png">
 						Ocean observation systems
 					</div>
-					
-					<div style="width:27%;vertical-align:bottom;margin:0.5em;display:inline-block" class="fragment">
-						<img style="width:100%;height:auto;margin:0" src="img/onboard-surveillance-iobserver.png">
-						Onboard surveillance
-					</div>
 
 					<div style="width:27%;vertical-align:bottom;margin:0.5em;display:inline-block" class="fragment">
 						<img style="width:80%;height:auto;margin:0" src="img/vms-2.jpg">
 						Vessel monitoring systems
+					</div>
+
+					<div style="width:27%;vertical-align:bottom;margin:0.5em;display:inline-block" class="fragment">
+						<img style="width:100%;height:auto;margin:0" src="img/onboard-surveillance-iobserver.png">
+						Onboard video surveillance
 					</div>
 					
 					<div style="width:27%;vertical-align:bottom;margin:0.5em;display:inline-block" class="fragment">
@@ -209,7 +230,7 @@ Bonus: GPT store
 
 					<div style="width:27%;vertical-align:bottom;margin:0.5em;display:inline-block" class="fragment">
 						<img style="width:100%;height:auto;margin:0" src="img/model-1.png">
-						Fisheries management modeling
+						Fisheries modeling
 					</div>
 					
 					
@@ -238,11 +259,7 @@ Bonus: GPT store
 					<img class="stretch" src="img/global-broadband.png">
 				</section>
 
-				<!-- <section data-background-color="#000000">
-					<h4>Disproportionate Surveillance of Minoritized Groups</h4>
-					<img class="stretch" src="img/black-lives-matter-surveillance.webp">
-					<div style="font-size:40%;opacity:0.4">Credit: Amnesty International / Spencer Platt / Getty Images</div>
-				</section> -->
+				
 
 				<section data-background-color="#404040">
 					<h4>AI Model Biases</h4>
@@ -250,14 +267,32 @@ Bonus: GPT store
 					<div style="width:40%;display:inline-block">
 						<img src="img/computer-vision-discrimination.png" style="width:100%;height:auto;display:block">
 						<img src="img/gender-classification.webp" style="width:100%;height:auto;display:block">
-						<div style="font-size:40%;opacity:0.4">Credit: Joy Buolamwini</div>
+						<div style="font-size:40%;opacity:0.4">Credit: Joy Buolamwini, Reuters/Richard Lee</div>
 					</div>
 
 				</section>
 				
+				<section data-background-color="#000000">
+					<h4>Disproportionate Surveillance of Marginalized Groups</h4>
+
+					<div style="width:70%;display:inline-block;text-align:center;padding:0">
+						<!-- <img src="img/Three_Surveillance_cameras.jpeg" style="width:30%;display:block;margin-left:auto;"> -->
+						<img class="" style="display:inline-block;width:100%;height:auto;vertical-align:top" src="img/black-lives-matter-surveillance.webp">
+						<div style="font-size:40%;opacity:0.4">Credit: Amnesty International / Spencer Platt / Getty Images; The Guardian / Betsy Reed</div>
+					</div>
+					
+					<img style="width:22%;height:auto;display:inline-block;vertical-align:top;opacity:0.9" src="img/guardian-screenshot.png">
+					
+					<!-- <div style="font-size:40%;opacity:0.4">Credit: Amnesty International / Spencer Platt / Getty Images; The Guardian / Betsy Reed</div> -->
+				</section>
+
+
+
+
 				<section>
 					<h4 style="margin-top:1em">Equitable Ocean Tech must be Anti-Inequity</h4>
 					<img class="stretch" src="img/ocean-equity-triangle.png" style="margin-top:-0.5em">
+					<!-- <h3>oceannexus.org</h3> -->
 				</section>
 
 <!-- takeaway slide -->
@@ -265,12 +300,12 @@ Bonus: GPT store
 	<h3>Designing Equitable Ocean Technology</h3>
 	
 	<table class="roadmap">
-		<tr class="fragment"><td>1.</td><td>Who has <b>decision-making power?</b></td></tr>
-		<tr class="fragment"><td>2.</td><td>Who is <b>excluded</b>?
+		<tr><td><span class="signpost">1.</span></td><td>Who has <b>decision-making power?</b></td></tr>
+		<tr><td><span class="signpost">2.</span></td><td>Who is <b>excluded</b>?
 			<!--<br><small>Digital divide <small style="vertical-align:20%"> &bull; </small> design choices <small style="vertical-align:20%"> &bull; </small> online discrimination</small>--></td></tr>
-		<tr class="fragment"><td>3.</td><td>Who benefits from <b>model biases?</b></td></tr>
-		<tr class="fragment"><td>4.</td><td>Who takes on <b>burdens and risks?</td></tr>
-		<tr class="fragment"><td>5.</td><td>Who benefits from <b>hype and confusion?</b></td></tr>
+		<tr><td><span class="signpost">3.</span></td><td>Who benefits from <b>model biases?</b></td></tr>
+		<tr><td></td><td>Who takes on <b>burdens and risks?</td></tr>		
+		<tr><td></td><td>Who benefits from <b>techno-optimism?</b></td></tr>
 	</table>
 </section>
 
@@ -279,17 +314,18 @@ Bonus: GPT store
 	<h3>Designing Equitable Ocean Technology</h3>
 	
 	<table class="roadmap">
-		<tr class="selected"><td>1.</td><td>Who has <b>decision-making power?</b></td></tr>
-		<tr><td>2.</td><td>Who is <b>excluded</b>?
-		<tr><td>3.</td><td>Who benefits from <b>model biases?</b></td></tr>
-		<tr><td>4.</td><td>Who takes on <b>burdens and risks?</td></tr>
-		<tr><td>5.</td><td>Who benefits from <b>hype and confusion?</b></td></tr>
+		<tr class="selected"><td><span class="signpost">1.</span></td><td>Who has <b>decision-making power?</b></td></tr>
+		<tr><td><span class="signpost">2.</span></td><td>Who is <b>excluded</b>?
+			<!--<br><small>Digital divide <small style="vertical-align:20%"> &bull; </small> design choices <small style="vertical-align:20%"> &bull; </small> online discrimination</small>--></td></tr>
+		<tr><td><span class="signpost">3.</span></td><td>Who benefits from <b>model biases?</b></td></tr>
+		<tr><td></td><td>Who takes on <b>burdens and risks?</td></tr>		
+		<tr><td></td><td>Who benefits from <b>techno-optimism?</b></td></tr>
 	</table>
 </section>
 				
 				<section>
-					<h4>1. Who has <b>decision-making power?</b></h4>
-					<h3>Example: Fisheries Management Modeling</h3>
+					<!-- <h4>1. Who has <b>decision-making power?</b></h4> -->
+					<h3>Example: Fisheries Modeling</h3>
 					
 					<div class="fragment custom fade-in-shrink" style="width:85%;margin-right:auto;margin-left:auto">
 						<img src="img/model-1.png" class="" style="width:55%;height:auto;vertical-align:middle">
@@ -297,7 +333,7 @@ Bonus: GPT store
 						<div style="font-size:35%; text-align:left; opacity:0.8" class="vanish-with-fragment-end">
 						&bull; Madison Heller-Shipley et. al. <i>Streamlining MSE: Assessing Shortcut Methods for Expedited Science Integration.</i> World Fisheries Congress Presentation 2024
 						<br>&bull; Yunzhou Li et. al. <i>Evaluating fisheries conservation strategies in the socio-ecological system: A grid-based dynamic model to link spatial conservation prioritization tools with tactical fisheries management</i>. PLOS One 2020.
-						</small>
+						</div>
 					</div>
 					
 					<!-- <ul class="dashed">
@@ -306,31 +342,39 @@ Bonus: GPT store
 				</section>
 				
 				<!-- <section data-background-gradient="linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 86%, rgba(50,50,50,1) 86%, rgba(50,50,50,1) 100%)"> -->
-				<section>
+				<section data-background-color="#0d2142" style="font-size:85%">
 					<!-- <h4 style="background-color:black"><span class="number-marker">1.</span> Who has <b>decision-making power?</b></h4> -->
-					<h3>Example: Modeling</h3>
+					<h3>Example: Fisheries Modeling</h3>
 					
 					<ul class="dashed spaced">						
 						<li class="">Complexity squeezes out less-powerful stakeholders
 							<ul class="dashed">
 								<li style="margin-top:0">What is modeled and why?</li>
 							</ul>
+
+							<div style="width:60%;margin-right:auto;margin-left:auto">
+								<img src="img/science-management-interface.png" style="width:80%;height:auto"><br>
+								<div style="font-size:50%;opacity:0.8;line-height:1">Angela Abolhassani, Jessica Vandenberg 2024. <i>Management Procedures and the Science Management Interface in International Tuna Management</i>. Presentation at World Fisheries Congress 2024. (citing Lave 2012.)</div>
+								</div>
 						</li>
 						<!-- <li class="fragment">Ideal: equitable sharing of decision-making</li> -->
 						<li class="fragment">"Participatory" modeling methods often fall short in practice
 							<ul class="dashed">
 								<li style="margin-top:0">More powerful actors still control the process</li>
 							</ul>
-							<div style="width:60%;margin-right:auto;margin-left:auto">
-							<img src="img/science-management-interface.png" style="width:70%;height:auto"><br>
-							<div style="font-size:40%;opacity:0.6;line-height:1">Angela Abolhassani, Jessica Vandenberg 2024. <i>Management Procedures and the Science Management Interface in International Tuna Management</i>. Presentation at World Fisheries Congress 2024. (citing Lave 2012.)</div>
-							</div>
+							
 							
 						</li>
-						<li class="fragment">
-							Technological partial-mitigations?<br>
-							<small>Simpler models <small style="vertical-align:20%"> &bull; </small> interactivity <small style="vertical-align:20%"> &bull; </small> better interfaces</small>
-						</li>
+
+						<!-- <ul class="dashed spaced"> -->
+							<li class="fragment">
+								<i>Partial</i> technology mitigations?<br>
+								<small>Simpler models &nbsp;&nbsp;<small style="vertical-align:20%"> &bull; </small>&nbsp;&nbsp; better user interfaces &nbsp;&nbsp;<small style="vertical-align:20%"> &bull; </small>&nbsp;&nbsp; more interactivity</small>
+							</li>
+	
+							<!-- <li class="fragment">Core problem: Who has decision-making power?</li> -->
+						<!-- </ul> -->
+
 					</ul>
 					
 					<!-- - looking into what is monitored and why: every model is omitting some factors and focusing on some factors. Interesting to see what has been put in place. What is being monitored and why; who is benefitting from that. -->
@@ -338,16 +382,30 @@ Bonus: GPT store
 					<!-- <div style="background-color:#eee" class="fragment">Also applies to apps and things</div> -->
 				</section>
 				
+
+
+				<section data-background-color="#d9d9d9">
+					
+					<h4>Core problem: Who has Decision-Making Power?</h4>
+
+					<img class="stretch" src="img/bleaching-modeling-equity.png">
+					<div style="font-size:40%;opacity:0.6;line-height:1;width:60%;margin-right:auto;margin-left:auto">González-Espinosa, P.C., Bossier, S., Singh, G.G. et al. Integrating equity-focused planning into coral bleaching management. npj Ocean Sustain 2, 27 (2023).</div>
+
+
+					
+				</section>
+
 <!-- takeaway slide -->
 <section data-background-color="#323232" class="takeaway-slide">
 	<h3>Designing Equitable Ocean Technology</h3>
 	
 	<table class="roadmap">
-		<tr><td>1.</td><td>Who has <b>decision-making power?</b></td></tr>
-		<tr  class="selected"><td>2.</td><td>Who is <b>excluded</b>?
-		<tr><td>3.</td><td>Who benefits from <b>model biases?</b></td></tr>
-		<tr><td>4.</td><td>Who takes on <b>burdens and risks?</td></tr>
-		<tr><td>5.</td><td>Who benefits from <b>hype and confusion?</b></td></tr>
+		<tr><td><span class="signpost">1.</span></td><td>Who has <b>decision-making power?</b></td></tr>
+		<tr class="selected"><td><span class="signpost">2.</span></td><td>Who is <b>excluded</b>?
+			<!--<br><small>Digital divide <small style="vertical-align:20%"> &bull; </small> design choices <small style="vertical-align:20%"> &bull; </small> online discrimination</small>--></td></tr>
+		<tr><td><span class="signpost">3.</span></td><td>Who benefits from <b>model biases?</b></td></tr>
+		<tr><td></td><td>Who takes on <b>burdens and risks?</td></tr>		
+		<tr><td></td><td>Who benefits from <b>techno-optimism?</b></td></tr>
 	</table>
 </section>
 
@@ -407,12 +465,14 @@ Bonus: GPT store
 	<h3>Designing Equitable Ocean Technology</h3>
 	
 	<table class="roadmap">
-		<tr><td>1.</td><td>Who has <b>decision-making power?</b></td></tr>
-		<tr><td>2.</td><td>Who is <b>excluded</b>?
-		<tr class="selected"><td>3.</td><td>Who benefits from <b>model biases?</b></td></tr>
-		<tr><td>4.</td><td>Who takes on <b>burdens and risks?</td></tr>
-		<tr><td>5.</td><td>Who benefits from <b>hype and confusion?</b></td></tr>
+		<tr><td><span class="signpost">1.</span></td><td>Who has <b>decision-making power?</b></td></tr>
+		<tr><td><span class="signpost">2.</span></td><td>Who is <b>excluded</b>?
+			<!--<br><small>Digital divide <small style="vertical-align:20%"> &bull; </small> design choices <small style="vertical-align:20%"> &bull; </small> online discrimination</small>--></td></tr>
+		<tr class="selected"><td><span class="signpost">3.</span></td><td>Who benefits from <b>model biases?</b></td></tr>
+		<tr><td></td><td>Who takes on <b>burdens and risks?</td></tr>		
+		<tr><td></td><td>Who benefits from <b>techno-optimism?</b></td></tr>
 	</table>
+
 </section>
 				<section>
 					<img src="img/gpt-store.png" class="stretch">
@@ -525,19 +585,20 @@ Bonus: GPT store
 
 <!-- takeaway slide -->
 <section data-background-color="#323232" class="takeaway-slide">
-	<h3>Designing Equitable Ocean Technology</h3>
+	<h3>Placeholder</h3>
 	
-	<table class="roadmap">
-		<tr><td>1.</td><td>Who has <b>decision-making power?</b></td></tr>
-		<tr><td>2.</td><td>Who is <b>excluded</b>?
-		<tr><td>3.</td><td>Who benefits from <b>model biases?</b></td></tr>
-		<tr class="selected"><td>4.</td><td>Who takes on <b>burdens and risks?</td></tr>
-		<tr><td>5.</td><td>Who benefits from <b>hype and confusion?</b></td></tr>
-	</table>
+	
+</section>
+
+				
+
+<!-- takeaway slide -->
+<section data-background-color="#323232" class="takeaway-slide">
+	<h2>Extra Slides</h2>
 </section>
 
 				<section>
-					<h4>4. Who takes on burdens and risks</h4>
+					<h4>Who takes on burdens and risks?</h4>
 					<h3>Example: Fishing Boat Surveillance</h3>
 					<img src="img/conveyor-belt-camera.png" style="width:27%;height:auto">
 					<img src="img/computer-vision-onboard.jpg" style="width:30%;height:auto">
@@ -545,31 +606,18 @@ Bonus: GPT store
 					<ul class="dashed spaced" style="font-size:80%">
 						<li>Monitoring systems including AIS, VMS, camera systems</li>
 						<li class="fragment">Need to balance fishers' privacy and security with enforcement needs
-							<ul class="dashed">
+							<!-- <ul class="dashed">
 								<li>Video surveillance can feel very invasive</li>
 								<li>Legitimate reasons to turn off AIS location broadcasts</li>
 							</ul>
-						</li>
+						</li> -->
 						<li class="fragment"><i>Partial</i> technical mitigations: blurring faces with AI</li>
 					</ul>
 				</section>
-				
 
-<!-- takeaway slide -->
-<section data-background-color="#323232" class="takeaway-slide">
-	<h3>Designing Equitable Ocean Technology</h3>
-	
-	<table class="roadmap">
-		<tr><td>1.</td><td>Who has <b>decision-making power?</b></td></tr>
-		<tr><td>2.</td><td>Who is <b>excluded</b>?
-		<tr><td>3.</td><td>Who benefits from <b>model biases?</b></td></tr>
-		<tr><td>4.</td><td>Who takes on <b>burdens and risks?</td></tr>
-		<tr class="selected"><td>5.</td><td>Who benefits from <b>hype and confusion?</b></td></tr>
-	</table>
-</section>
 
 				<section>
-					<h4>5. Benefits from technology hype?</h4>
+					<h4>Who benefits from technology hype?</h4>
 					<h3>Example: Blockchain Traceability</h3>
 					<div>
 						<img style="width:30%;height:auto;display:inline-block" src="img/blockchain-walmart-2.png">
@@ -640,6 +688,7 @@ Bonus: GPT store
 				progress: false,
 
 				transition: 'none',
+				backgroundTransition: 'none',
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],

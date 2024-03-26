@@ -1,0 +1,202 @@
+Todo:
+- write script
+- change outline slide 
+
+
+- add slide about surveilence 
+
+- add ocean nexus learning forum links to equity triangle
+
+
+- add Pedro citation
+- recrop angela slide to show citation
+- 
+
+- on 2nd exclusion slide: do something about quote
+
+- change other AI slide to talk about computer vision instead of "other AI"
+
+- make better introduction to model biases section
+
+
+
+
+----------------------------------------------------------------------------
+-------- START
+
+
+
+THANKS
+
+- for the introduction
+- for joining
+
+
+
+So what is ocean technology?
+
+
+
+
+---------------------------------------------------------------------------
+---------------------------  ocean technology slide
+
+
+A variety of new technologies starting to transform ocean governance 
+
+
+1. Ocean observation systems 
+-- bring together different technologies
+------- sensors, 
+------- tracking devices
+------- satellite remote sensing 
+-- to monitor changing environmental conditions in the ocean
+----- temperature changes
+----- fish stocks
+----- coral bleaching
+
+
+2. Vessel monitoring systems 
+-- for governments to track fishing boats
+
+
+3. Video monitoring systems 
+-- on fishing boats, using AI 
+
+
+4. Lots of mobile apps for fishers 
+- for things like collecting 
+
+5. Increasingly complex and computationally intense models for fisheries management 
+
+6. Technology for supply chain traceability 
+
+
+
+
+-----------------------------------------------------------
+--- internet access slide
+
+But we know that the spread of computing technology hasn't been fair to everyone.
+
+For example, internet access and device ownership haven't been fairly distributed. This map shows how broadband internet is much more easily available in some parts of the world than others, for example.
+
+We also saw this during the covid-19 pandemic, when some people struggled with online education much more than others, because they didn't have reliable internet at home.
+
+
+
+-------------------------------------------------------------
+-- AI bias slide 
+
+Another well-established problem is discriminatory biases in AI models. 
+
+This example on the left illustrates how racism and misogyny are embedded in AI language models, which they learn from text on the internet.
+
+We see similar problems in visual models. For example in one famous case, the passport application website for New Zealand was rejecting photos of Asian people because it thought their eyes were closed.
+
+In this other example, researchers measured that Amazon's facial recognition product guessed the genders less accurately for black and brown women, tending to erroniously labeling them as men.
+
+AI model biases are having more real-world impacts on people as they find their way into real products and applications.
+
+
+--------------------------------------------------------
+-- surveilance slide 
+
+Another example, marginalized groups are disproportinately subjected to electronic surveillance, both online and offline, and often along lines of race, gender, and nationality.
+
+Survailance systems are increasingly incorporating AI, too.
+
+
+So given all these problems, how should we make sure that ocean technology is fair to everyone?
+
+
+-------------------------------------------------------
+-- equity triangle
+
+We're taking the perspective that for ocean technology to be equitable, it must be anti-inequity. 
+
+This intillectual foundation is based on Ibran X Kendi's work on antiracism. If you want to learn more about ocean equity, you can check out the Learning Forum on the Ocean Nexus Website.
+
+
+-------------------------------------------------------------
+-- outline slide 
+
+
+So, here are some of the most important questions to consider for designing equitable ocean technology. 
+
+1. In an ocean technology project, who has decision-making power?
+
+2. Who is excluded? Either by technology access barriers, or by design factors.
+
+3. Who benefits from model biases? This becoming more important with the rise of AI.
+
+4. Who takes on burdens and risks? In an environmental technology project, these can be anything from extra work for some stakeholders, expenses, security and privacy risks, or reorganizing their institutions around the technology.
+
+5. Who benefits from techno-optimism? 
+-- By this I mean that technology is not the solution to every environmental problem, 
+-- but technology tends to bring a lot of hype, excitement, and uncertianty.
+-- Techno-optimism can draw attention away from other actions that we need. 
+-- For example, there are a lot of robotic ocean-cleanup projects, but we really need regulation to stop plastic from ending up in the ocean in the first place, and it's argued that these ocean-cleanup projects are used to draw attention away from that.
+-- Or, the exctitement and confusion around blockchain can allow some actors to claim that their fisheries supply chain is more tranceparent and traceable than it actually is.
+
+
+Importantly, I'm not saying that ocean technology is bad or that we shouldn't do it.
+- I'm saying that these are some conversations that we need to start having, in order to do it right.
+
+- And this list is not exhaustive.
+
+
+FRAGMENT
+
+For the rest of this presentation, I'm going to go into more detail and give some examples on three of these points; but unfortunately don't have time for all of them.
+
+------------------------------------------- first signpost slide 
+
+So first, let's talk about decision-making power in ocean technology projects.
+
+
+------------------------------------------ model slide
+
+On decision-making power, let's go into the example of modeling for fisheries management processes. 
+
+Really complex and computationally-intensive models are becoming more and more common in different oceanic menagement processes. This slide has a couple diagrams to show how mind-bogglingly complex they are. 
+
+More and more of these models require a lot of computational power. It's common for a model to take 2 weeks to run and produce a result on some heavy cloud infrastructure.
+
+
+
+------------------------------------------- model problem slide
+
+
+So what is the equity issue with modeling?
+
+These ocean management models tend to get used in highly political and contested negotiation processes. 
+- And the ever-increasing complexity of these models makes it harder for smaller, less-powerful stakeholders to participate. 
+
+This is important because the models take a certain point of view: what is modeled and why? Some things are prioritized, other things left out. 
+- These choices can be really political.
+- When the models become so complicated, it has the effect of squeezing out less powerful stakeholders who have less technical capacity for modeling.
+
+For some more depth, I'd like to refer you to Angela Abolhassani's work, an Ocean Nexus fellow, on how management procedures built on modeling frameworks can obscure these power imbalances.
+
+
+There are a variety of "participatory modeling processes" that try to bridge this gap, but in practice they often fall short because the more powerful actors still keep control of the whole modelling process.
+
+So, what do we do about this?
+
+- There are some ways we can partially address this problem with technology changes, like using simpler models to lower the barrier to participation, or by building better interfaces with more connectivity.
+
+--------------------------------------------- modeling decision-making-power slide
+
+
+
+- However, technology changes alone are not enough to fix the core problem of who has the decision-making power.
+
+Towards this point, I just want to flash you this diagram from Pedro Gonzalez-Espinosa's recent publication on equitable use of modelling in coral bleaching management, and refer you to that paper for a more detailed discussion of how to do this.
+
+
+
+----------------------------------------------------------------------
+-- end slide
+
+HAND OFF TO RICHARD
