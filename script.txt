@@ -1,15 +1,8 @@
 Todo:
-- write script
 
 - add credits to technology intro slide
+- add image credits to computer vision slide
 
-
-
-- on 2nd exclusion slide: do something about quote
-
-- change other AI slide to talk about computer vision instead of "other AI"
-
-- make better introduction to model biases section
 
 
 
@@ -139,6 +132,8 @@ Importantly, I'm not saying that ocean technology is bad or that we shouldn't do
 - And this list is not exhaustive.
 
 
+**TALK TOO LONG ON THIS SLIDE
+
 FRAGMENT
 
 For the rest of this presentation, I'm going to go into more detail and give some examples on three of these points; but unfortunately don't have time for all of them.
@@ -203,12 +198,12 @@ To talk about one of them, we'll use the example of PescaData, a mobile app for 
 
 A key goal of PescaData is to provide services to small and underserved fishing cooperatives.
 
-However somewhat paradoxically, serving the most underserved fishing cooperatives is hard to do with a mobile app because these most-marginalized fishers often have the biggest for using technology.
+However somewhat paradoxically, serving the most underserved fishing cooperatives is hard to do with a mobile app because these most-marginalized fishers often have the biggest barriers for using technology.
 
 For example, many of the fishers had difficulties using the app, stemming from 
 - mixed formal education levels
 - and literacy barriers.
-- Barriers to using the app tended to fall along generational lines,
+- These b arriers to using the app tended to fall along generational lines,
 - as well as gender.
 - Additionally, a access challenge for these fishing mobile app projects is that there just is not good cellular connectivity at sea.
 
@@ -288,23 +283,38 @@ So, we've developed a workshop on "ChatGPT for policymaking practicioners." We p
 
 ------------------------------------------------------ computer vision slide
 
-- so, let's turn our attention to 
+Let's turn our attention to another AI application, computer vision. 
+
+Computer vision is essentially when an AI program tries to understand what is going on in an image, like how social media apps automatically identify faces, for example. It essentially still works by training a model with lots of example pictures.
+
+I think we are right on the cusp of computer vision becoming much more widespread in ocean management, very soon. The technology pretty recently became good enough to be useful, so there are lots of different applications in early-stage development that seem to be getting good results.
+
+For example, there are projects using computer vision 
+- to identify and count fish underwater as they go into a net
+- to monitor onboard fishing boats, identifying and counting all the fish that get caught or thrown overboard, often also predicting their sex and age,
+- and also lots of different applications using computer vision with sattelite images, like trying to identify fishing boats.
 
 
+The bias issues with these models are a little different, but related.
+- they will make errors sometimes, and the errors won't always be evenly distributed, possibly behaving unfairly to some people.
+- since these uses of computer vision are all so new, we will likely need a lot of research into their equity, fairness, and accountability.
 
-
-
-
-
-
-
-
-
-
+Fortunately there is some research in other sectors that we can build on as we figure this out, like critical technology research, algorithmic fairness, technology policy, et cetera.
 
 
 
 ----------------------------------------------------------------------
 -- end slide
+
+
+So this is the end of my slides and that's all we have time for today. 
+
+Again, I'm not saying that ocean technologies are bad or that we shouldn't do them, but I think it's really important to have these conversations about equity. 
+
+We can learn a lot from the hard-fought lessons in other technology sectors, hopefully avoid some mistakes, and strive to design ocean technology that is fair and equitable for everyone.
+
+Now, I'll hand it over to Richard Anderson for his remarks.
+
+
 
 HAND OFF TO RICHARD
