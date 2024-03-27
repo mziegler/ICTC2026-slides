@@ -1,16 +1,9 @@
 Todo:
 - write script
-- change outline slide 
+
+- add credits to technology intro slide
 
 
-- add slide about surveilence 
-
-- add ocean nexus learning forum links to equity triangle
-
-
-- add Pedro citation
-- recrop angela slide to show citation
-- 
 
 - on 2nd exclusion slide: do something about quote
 
@@ -33,7 +26,7 @@ THANKS
 
 
 
-So what is ocean technology?
+So let's start with: what is ocean technology?
 
 
 
@@ -42,7 +35,7 @@ So what is ocean technology?
 ---------------------------  ocean technology slide
 
 
-A variety of new technologies starting to transform ocean governance 
+A variety of new emerging technologies are starting to transform ocean governance 
 
 
 1. Ocean observation systems 
@@ -193,6 +186,121 @@ So, what do we do about this?
 - However, technology changes alone are not enough to fix the core problem of who has the decision-making power.
 
 Towards this point, I just want to flash you this diagram from Pedro Gonzalez-Espinosa's recent publication on equitable use of modelling in coral bleaching management, and refer you to that paper for a more detailed discussion of how to do this.
+
+
+
+--------------------------------------------- signpost slide 
+
+So now let's move to our next consideration for designing equitable ocean technologies: Who is excluded?
+
+There are a few different ways that relying on technology can exclude some people from benefitting or participating.
+
+
+----------------------------------------------- Pescadata slide
+
+To talk about one of them, we'll use the example of PescaData, a mobile app for fishing cooperatives to manage data to get environmental certifications, among other features like connecting to other fishers.
+- There are many other projects like this, so this gives us a case study.
+
+A key goal of PescaData is to provide services to small and underserved fishing cooperatives.
+
+However somewhat paradoxically, serving the most underserved fishing cooperatives is hard to do with a mobile app because these most-marginalized fishers often have the biggest for using technology.
+
+For example, many of the fishers had difficulties using the app, stemming from 
+- mixed formal education levels
+- and literacy barriers.
+- Barriers to using the app tended to fall along generational lines,
+- as well as gender.
+- Additionally, a access challenge for these fishing mobile app projects is that there just is not good cellular connectivity at sea.
+
+More details from this analysis will be available soon in a forthcoming publication from Claudia Delgado Ramírez.
+
+
+So, what can you do about these technology access barriers?
+- One is to center the most marginalized users in your design process. When you design specifically for the people who will have the most trouble with your app, then your other users tend to also benefit.
+
+- Another is to use diverse communication channels; consider that not everybody will want to use your app, so you can use a multi-pronged strategy to meet people where they are.
+
+- In some circumstances, it can help to invest in training for an app.
+
+
+
+-------------------------------------------------------------
+- online interactions slide
+
+Another example I want to quickly point out is exclusion from online social spaces.
+
+In Claudia's work on PescaData and fishing cooperatives, she found that lots of fishers had lively Facebook and Whatsapp groups, but they were largely gendered for only men or only women.
+
+I also have a paper coming out soon where I interviewed staff of environmental organizations about community engagement, and they identified social stigmas as one of the main barriers. For example in some organizations where there were mixed languages, non-English speakers stopped participating because they felt excluded.
+
+Sometimes these problems are addressable with careful design and moderation, but sometimes they're not.
+
+
+
+----------------------------------------------------------
+- signpost slide #3
+
+
+Ok so now let's move onto the last topic for today, AI model biases. I think this is going to become really important soon, as we start to see more and more uses of AI in ocean governance.
+
+There are a lot of different types of AI that all have different, but related problems.
+
+
+------------------------------------- GPT store slide
+
+So to introduce the problem, I want to start with the example of AI language models like ChatGPT.
+
+What does ChatGPT have to do with ocean governance, you might ask?
+
+It turns out that policymakers at the UN are using ChatGPT for all kinds of things already, like drafting statements for things and doing background research.
+
+There are already commercial products on the market today that use AI language models for different types of policy analysis.
+
+This screenshot is from OpanAI's "GPT Store," kind of like an app store for different custom versions of ChatGPT. A couple days ago I did a search for "environmental policy," and there are already all these different AI agents specialized for talking about environmental policy.
+
+
+
+----------------------------------------------------
+GPT bias slide 
+
+****Wing it 
+
+
+These models do have biases
+
+----------------------------------------------------------- BBNJ chatbot slide 
+
+
+To dig into this further, we made a chatbot about the UN Biodiversity Beyond National Jurisdiction Agreement and tested it out to examine AI Language Models' strengths, weaknesses, and equity psoblems for use in marine policy. You can find the preprint on archive.
+
+In the paper, we examine ways that AI language models can help with some of the specific tedious parts of policy work, especially for smaller governments.
+
+Of course though, we have some big concerns. In the paper we elaborate different causes of errors and biases in our BBNJ Chatbot, including 
+- biases in GPT itself, which it learned from being trained on biased text from the Internet, newspapers, and books;
+- biases from its connection to the BBNJ negotiation documents, which overrepresent the viewpoints of the developed countries,
+- and biases stemming from the application design.
+
+Still, we expect that generative AI is going to creep further and further into the policymaking process, and it's going to become important for people to develop more AI literacy to be able to get the most out of it while avoiding its pitfalls.
+
+So, we've developed a workshop on "ChatGPT for policymaking practicioners." We presented it once with the Ocean Voices fellows, and I am really keen to present this to more groups so please get in touch if you're interested. We are also finishing up a website with all the material, so keep your eye out as we launch it in the next few weeks.
+
+
+
+------------------------------------------------------ computer vision slide
+
+- so, let's turn our attention to 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
