@@ -121,13 +121,16 @@ So, here are some important questions to consider for designing equitable ocean 
 4. Who takes on burdens and risks? In an environmental technology project, these can be anything from extra work for some stakeholders, expenses, security and privacy risks, or reorganizing their institutions around the technology.
 
 5. Who benefits from techno-optimism? 
-By this, I mean that technology can draw attention away from other a
 
--- By this I mean that technology is not the solution to every environmental problem, 
--- but technology tends to bring a lot of hype, excitement, and uncertianty.
--- Techno-optimism can draw attention away from other actions that we need. 
--- For example, there are a lot of robotic ocean-cleanup projects, but we really need regulation to stop plastic from ending up in the ocean in the first place, and it's argued that these ocean-cleanup projects are used to draw attention away from that.
--- Or, the exctitement and confusion around blockchain can allow some actors to claim that their fisheries supply chain is more tranceparent and traceable than it actually is.
+What do I mean by this?
+
+Technology is not the solution to every environmental problem, but new technologies tend to bring a lot of hype, excitement, and confusion. 
+
+But sometimes, technology hype is used by powerful actors for green washing, or distracting attention away from issues, or avoiding regulations.
+
+For example, a couple years ago there was a lot of hype about blockchain <b>bringing unprecedented traceability to fishing supply chains.</b> But years later, we see that blockchain hasn't really delivered on these promises and its impact has been pretty minimal. So who benefitted from this?
+
+That's just one example of an equity problem stemming from techno-optimism.
 
 
 Importantly, I'm not saying that ocean technology is bad or that we shouldn't do it.
