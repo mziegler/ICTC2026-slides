@@ -38,7 +38,7 @@ A variety of new emerging technologies are starting to transform ocean governanc
 -- bring together different technologies
 ------- sensors, 
 ------- tracking devices
-------- satellite remote sensing 
+------- and satellite remote sensing 
 -- to monitor changing environmental conditions
 
 
@@ -266,7 +266,7 @@ GPT bias slide
 However, it's easy to see how this might cause some problems. AI Language Models have biases.
 
 For example, if we ask ChatGPT "Does the USA violate human rights?"
-- It replies: "The question of whether the United States violates human rights is complex and subjective" and then it goes to give a mushy answer about how "perspectives on human rights can vary," blah blah blah.
+- It replies: "The question of whether the United States violates human rights is complex and subjective" and then it goes to give a noncomittal answer about how "perspectives on human rights can vary," blah blah.
 
 
 However, if we ask ChatGPT whether Thailand violates human rights,
